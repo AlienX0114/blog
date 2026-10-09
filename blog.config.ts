@@ -63,7 +63,6 @@ export const MENU_ITEMS = [
 //预置了一个免费图床和一个高清图片壁纸站按钮,由于后者被墙，需要把后者的图片放到前面的图床后，再复制链接给你的博客配图
 export const RECOMMENDED_LINKS = [
   { label: '第三方图床', url: 'https://urusai.cc', icon: Image },
-  { label: '壁纸图片网站', url: 'https://wallhaven.cc', icon: Image },
 ];
 
 
@@ -98,7 +97,7 @@ export const THEME_COLOR = "indigo";
 
 // 10. 网站背景图片透明度（0.0 到 1.0 之间，数值越小，背景图越清晰）
 // 建议：浅色模式 0.7-0.9，深色模式 0.8-0.95
-export const SITE_BG_OPACITY = 0.85;
+export const SITE_BG_OPACITY = 0;
 
 
 /**
