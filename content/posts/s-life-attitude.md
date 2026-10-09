@@ -1,7 +1,7 @@
 ---
 title: "慢下来，也是一种前进?"
-date: "2026-07-01"
-updated: "2026-07-01"
+date: "2026-07-02"
+updated: "2026-07-09"
 draft: true
 sticky: null
 tags: ["生活", "感悟"]
