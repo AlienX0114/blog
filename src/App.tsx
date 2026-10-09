@@ -589,7 +589,7 @@ export default function App() {
                   <>
                     <div className="bg-white/80 dark:bg-zinc-900/80 backdrop-blur-2xl rounded-3xl p-8 md:p-12 shadow-xl border border-gray-200 dark:border-zinc-800 flex flex-col mb-12">
                       <h1 className="text-5xl md:text-6xl font-black text-gray-900 dark:text-white mb-4 tracking-tighter">
-                        {activeTab === 'home' ? '' 
+                        {activeTab === 'home' ? '文档杂货铺' 
                          : activeTab === 'tags' ? (selectedTag ? `# ${selectedTag}` : '浏览标签')
                          : activeTab === 'categories' ? (selectedCategory ? `📂 ${selectedCategory}` : '全部分类')
                          : activeTab === 'archive' ? '归档'
