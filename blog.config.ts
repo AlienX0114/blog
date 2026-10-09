@@ -35,7 +35,7 @@ export const AUTHOR_CONTACT = "mailto:webmaster@example.com";
 
 // 6. 头像图片路径
 // 可以使用远程链接，或者将图片放入 public/images/ 后使用 "/images/文件名.jpg"
-export const AUTHOR_AVATAR = "public/images/kun.jpg";
+export const AUTHOR_AVATAR = "public/images/tou.png";
 
 
 /**
