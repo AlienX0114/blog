@@ -62,8 +62,6 @@ export const MENU_ITEMS = [
 // 8. 侧边栏底部的社交/推荐链接：
 //预置了一个免费图床和一个高清图片壁纸站按钮,由于后者被墙，需要把后者的图片放到前面的图床后，再复制链接给你的博客配图
 export const RECOMMENDED_LINKS = [
-  { label: 'GitHub', url: 'https://github.com', icon: Share2 },
-  { label: '我的主站', url: 'https://example.com', icon: Tv },
   { label: '第三方图床', url: 'https://urusai.cc', icon: Image },
   { label: '壁纸图片网站', url: 'https://wallhaven.cc', icon: Image },
 ];
@@ -113,7 +111,7 @@ export const SITE_BG_OPACITY = 0.85;
 // 可以添加多个，会自动并排显示，但需要格式保持一致，不然网站会崩。
 export const POST_BOTTOM_IMAGES = [
   {
-    enabled: true,
+    enabled: false,
     url: "public/images/kun.jpg",
     label: "关注我的公众号" 
   },
