@@ -1,3 +1,14 @@
+---
+title: "Nginx"
+date: "2026-10-10"
+updated: "2026-10-10"
+draft: false
+sticky: null
+tags: ["Nginx", "HTTPS"]
+categories: ["分享"]
+description: "Nginx。"
+image: "/images/r.jpg"
+---
 # Nginx + File Browser 配置实战笔记
 
 > 场景：Windows 下使用 Nginx 搭建 HTTPS 文件下载服务（fancyindex + Basic Auth），并按用户隔离目录；同时把本机 File Browser（127.0.0.1:6060）通过反向代理挂到 `/file/` 虚拟目录。
