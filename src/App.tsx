@@ -34,7 +34,7 @@ export default function App() {
     return false;
   });
   // 默认背景图 (小白不容易找到并修改这里)
-  const DEFAULT_BG = "https://i.urusai.cc/bNIyM.jpg";
+  const DEFAULT_BG = "https://i.urusai.cc/R0KB5.jpg";
 
   const [bgImage, setBgImage] = useState(() => {
     if (typeof window !== 'undefined') {
@@ -218,7 +218,7 @@ export default function App() {
     if (typeof window !== 'undefined') {
       localStorage.setItem('bg-image', bgImage);
     }
-  }, [bgImage]);
+  }， [bgImage]);
 
   /** 2. 数据获取逻辑 */
   const fetchPosts = async () => {
@@ -802,7 +802,7 @@ export default function App() {
         )}>
           <div className="bg-white/60 dark:bg-zinc-900/60 backdrop-blur-md rounded-full px-5 py-2 inline-flex flex-col md:flex-row items-center gap-1 md:gap-3 shadow-sm border border-gray-200/50 dark:border-zinc-800/50">
             <span className="text-xs font-medium text-gray-700 dark:text-zinc-300">
-              Copyright &copy; 2026 cf-blog | Powered by adou
+              Copyright &copy; 2026 cf-blog | Powered by 地球
             </span>
             <span className="hidden md:inline text-gray-300 dark:text-zinc-700">|</span>
             <span className="text-[10px] font-medium text-gray-500 dark:text-zinc-400">
