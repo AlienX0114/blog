@@ -2,7 +2,7 @@
 title: "慢下来，也是一种前进"
 date: "2026-07-01"
 updated: "2026-07-01"
-draft: false
+draft: true
 sticky: null
 tags: ["生活", "感悟"]
 categories: ["分享"]
