@@ -75,7 +75,7 @@ export const RECOMMENDED_LINKS = [
 export const ABOUT_PAGE_CONFIG = {
   name: AUTHOR_NAME,
   title: AUTHOR_TITLE,
-  image: "https://i.urusai.cc/PDOiV.png", // 背景大图
+  image: "https://i.urusai.cc/VHiQ5.jpg", // 背景大图
   description: `
 你好！我是${AUTHOR_NAME}。
 
