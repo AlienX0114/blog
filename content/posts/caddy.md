@@ -1,3 +1,15 @@
+---
+title: "Caddy"
+date: "2026-10-10"
+updated: "2026-10-10"
+draft: false
+sticky: null
+tags: ["SSL", "HTTPS"]
+categories: ["分享"]
+description: "Caddy自动续签。"
+image: "/images/tou.png"
+---
+
 <p align="center">
 	<a href="https://caddyserver.com">
 		<picture>
